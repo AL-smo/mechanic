@@ -22,7 +22,7 @@
 
 body {
     background-color: var(--bg-dark);
-    background-image: url('./img/MAKA.png');
+    background-image: url('MAKA.png'); /* تم تعديل المسار ليعمل مباشرة مع GitHub Pages */
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
@@ -425,6 +425,7 @@ footer p {
 @media (prefers-reduced-motion: reduce) {
     * { animation: none !important; transition: none !important; }
 }
+
 /* تنسيق الجوانب */
 .side-decor {
     position: fixed;
@@ -443,7 +444,6 @@ footer p {
     height: 100%;
 }
 
-/* إخفاؤها في الشاشات الصغيرة لتنسيق الجوال */
 @media (max-width: 1200px) {
     .side-decor { display: none; }
 }
