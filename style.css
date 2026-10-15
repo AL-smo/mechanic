@@ -501,11 +501,3 @@ footer p {
 @media (prefers-reduced-motion: reduce) {
     .box { transition: none; }
 }
-.hero-logo {
-    width: 220px !important;
-    height: auto !important;
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
-    margin: 20px auto;
-}
